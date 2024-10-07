@@ -1,0 +1,56 @@
+'''
+Zachary Briggs
+10/6/24
+HW 3
+'''
+
+Name = input('What is your name?')
+Date = input('What is the date?')
+noun1 = input('Enter a plural noun:')
+noun2 = input('Enter a plural noun:')
+noun3 = input('Enter a plural noun:')
+noun4 = input('Enter a plural noun:')
+noun5 = input('Enter a noun:')
+noun6 = input('Enter a plural noun:')
+noun7 = input('Enter a noun:')
+noun8 = input('Enter a noun:')
+noun9 = input('Enter a noun:')
+noun10 = input('Enter a noun:')
+noun11 = input('Enter a noun:')
+verb1 = input('Enter a verb:')
+verb2 = input('Enter a verb:')
+verb3 = input('Enter a verb:')
+verb4 = input('Enter a verb:')
+verb5 = input('Enter a verb ending in ing:')
+verb6 = input('Enter a verb:')
+adjective1 = input('Enter an adjective:')
+adjective2 = input('Enter an adjective:')
+adjective3 = input('Enter an adjective:')
+adverb1 = input('Enter an adverb:')
+adverb2 = input('Enter an adverb:')
+
+Madlib = "As a Jedi Master, I've " + verb1 + " some of the most " +\
+(adjective1) + str(noun1) + "in the galaxy how to " + str(verb2) +\
+" with a lightsaber. Here are some tips for you. The most important " +\
+" thing to " + str(verb3) + " when you're " + str(verb4) + " one of these " +\
+" percise " + str(noun2) + " is to trust your " + str(noun3) + ". This way " +\
+" you'll be able to sense your enemy's " + str(noun4) +\
+" before it's too late. A lightsaber is not only for use in " +\
+" Jedi-to- " + str(noun5) + " combat-- it also comes in andy if you find " +\
+" yourself in a/an " + str(adjective2) + " spot. For example, it can burn " +\
+" through metal " + str(noun6) + " --a/an " + str(adverb1) +\
+str(adjective3) + " trick to " +\
+" have up your " + str(noun7) + " if the Empire detains you in a " +\
+" holding " + str(noun8) + ". While a lightsaber is a " +\
+" beautiful " + str(noun9) + ", be careful if you see someone " +\
+str(verb5) + " with a red one " + "--this " + str(noun10) +\
+" works for the dark side. Finally,the " + " most " +\
+" important part of learning how to " + str(verb6) +\
+" with a " + " lightsaber. Whenever you're in battle, fight " +\
+str(adverb2) + ". " +\
+" May the" + str(noun11) + " be with you, always."
+
+
+print(Name.title)
+print(Date.title)
+print('Heres you madlib: ' + str(Madlib))
